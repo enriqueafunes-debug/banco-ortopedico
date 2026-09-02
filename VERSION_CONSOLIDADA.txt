@@ -1,0 +1,15 @@
+BANCO ORTOPÉDICO - VERSIÓN CONSOLIDADA DE PRUEBA
+
+Incluye:
+- Alquiler mínimo 1 día, máximo 90.
+- Campo de días editable y borrable mientras se escribe.
+- Stock individual editable: código, descripción, valor diario, garantía y foto.
+- Paso 3 con alquiler + garantía = total a pagar.
+- Forma de pago inicial: efectivo o transferencia.
+- Contrato pendiente hasta aceptación del cliente.
+- Extensión con cantidad de días editable.
+- Cierre con garantía aplicable en forma total o parcial.
+- Forma de pago del saldo final: efectivo o transferencia.
+- Reporte final de cierre.
+- Envío conceptual por WhatsApp y aceptación del cierre.
+- Liberación de stock según estado físico del elemento.

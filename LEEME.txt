@@ -1,0 +1,26 @@
+BANCO ORTOPÉDICO - APP ANDROID
+
+Este paquete ya contiene:
+- La demo v6 completa.
+- Navegación Android mediante WebView.
+- JavaScript y almacenamiento local habilitados.
+- Diseño azul y amarillo.
+- Nuevo Alquiler en 3 pasos.
+- Aceptación del contrato antes de mover stock.
+- Vencimiento, extensión/devolución.
+- Reporte de devolución y cierre.
+
+PARA GENERAR EL APK:
+Opción 1: Android Studio
+1. Abrir esta carpeta como proyecto.
+2. Esperar la sincronización de Gradle.
+3. Build > Build APK(s).
+4. El APK queda en app/build/outputs/apk/debug/app-debug.apk.
+
+Opción 2: GitHub Actions
+1. Subir la carpeta a un repositorio GitHub.
+2. Ir a Actions > Build APK > Run workflow.
+3. Descargar el artefacto “Banco-Ortopedico-APK”.
+
+El proyecto usa el paquete:
+org.rotary.bancoortopedico
