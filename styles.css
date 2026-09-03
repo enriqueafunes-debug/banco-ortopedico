@@ -1,0 +1,18 @@
+
+:root{--b:#073b8f;--b2:#0d55bd;--y:#f7c600;--bg:#f4f7fb;--tx:#17213a;--mut:#687386;--ln:#dce3ed;--ok:#16834b;--warn:#a96b00;--red:#b42318}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Arial,sans-serif;color:var(--tx)}
+.app{max-width:520px;margin:auto;min-height:100vh;background:#fff}.head{background:linear-gradient(135deg,var(--b),var(--b2));color:white;padding:17px}
+.brand{display:flex;gap:12px;align-items:center}.wheel{width:52px;height:52px;border:5px solid var(--y);border-radius:50%;display:grid;place-items:center;color:var(--y);font-size:25px}
+.brand h1{font-size:17px;margin:2px 0}.brand small{opacity:.9}.main{padding:16px 16px 90px}
+h2{margin:4px 0 6px}.sub,.mut{color:var(--mut);font-size:13px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:15px}
+.card,.panel,.item{border:1px solid var(--ln);border-radius:15px;background:#fff;padding:14px}.card{min-height:116px;text-align:left}.card b{display:block;margin:8px 0}.ico{font-size:27px}
+button{font:inherit;cursor:pointer}.btn{border:0;border-radius:11px;padding:13px;font-weight:700}.blue{background:var(--b);color:#fff}.yellow{background:var(--y);color:#102b63}.light{background:#fff;border:1px solid var(--ln)}.full{width:100%}
+.row{display:flex;gap:9px}.row>*{flex:1}.hidden{display:none!important}
+label{display:block;font-size:13px;font-weight:bold;margin:12px 0 5px}input,select{width:100%;padding:12px;border:1px solid var(--ln);border-radius:10px;font-size:15px;background:white}
+.steps{display:flex;gap:5px;margin:12px 0 18px}.steps i{height:7px;flex:1;border-radius:10px;background:#e6eaf0}.steps i.on{background:var(--b)}
+.item{margin:9px 0}.itemtop{display:flex;justify-content:space-between;gap:8px}.badge{padding:4px 8px;border-radius:20px;font-size:11px;font-weight:bold;background:#eef2f7}.pending{color:var(--warn);background:#fff6dd}.active{color:var(--ok);background:#eaf7ef}.maint{color:var(--red);background:#fff0ee}
+.money{background:#f7f9fc;border:1px solid var(--ln);border-radius:12px;padding:12px;margin:12px 0}.money div{display:flex;justify-content:space-between;margin:7px 0}.total{border-top:1px solid var(--ln);padding-top:9px;font-size:18px}
+.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:520px;width:100%;background:#fff;border-top:1px solid var(--ln);display:grid;grid-template-columns:repeat(5,1fr);padding:7px 3px}
+.nav button{border:0;background:white;font-size:10px;color:#596579}.nav span{display:block;font-size:20px;margin-bottom:2px}.toast{position:fixed;bottom:78px;left:50%;transform:translateX(-50%);background:#17213a;color:#fff;padding:10px 14px;border-radius:20px;font-size:12px;display:none}
+.contract{background:#fffbea;border:1px solid #f1dc79;border-radius:12px;padding:12px;margin:12px 0}.okbox{text-align:center;padding:20px 5px}.okbox .big{font-size:48px}
+@media(min-width:700px){body{padding:22px}.app{border-radius:24px;overflow:hidden;box-shadow:0 12px 35px #0002}.nav{bottom:22px}}
