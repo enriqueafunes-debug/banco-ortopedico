@@ -1,26 +1,28 @@
-BANCO ORTOPÉDICO - APP ANDROID
+BANCO ORTOPÉDICO - CONSOLIDADO v10
 
-Este paquete ya contiene:
-- La demo v6 completa.
-- Navegación Android mediante WebView.
-- JavaScript y almacenamiento local habilitados.
-- Diseño azul y amarillo.
-- Nuevo Alquiler en 3 pasos.
-- Aceptación del contrato antes de mover stock.
-- Vencimiento, extensión/devolución.
-- Reporte de devolución y cierre.
+Proyecto Android listo para compilar con el mismo GitHub Actions que ya funcionó.
 
-PARA GENERAR EL APK:
-Opción 1: Android Studio
-1. Abrir esta carpeta como proyecto.
-2. Esperar la sincronización de Gradle.
-3. Build > Build APK(s).
-4. El APK queda en app/build/outputs/apk/debug/app-debug.apk.
+IMPORTANTE PARA ACTUALIZAR EL REPOSITORIO:
+No arrastre la carpeta APP desde dentro del ZIP abierto.
+Primero use "Extraer todo" en Windows.
+Luego suba/reemplace respetando estas rutas:
 
-Opción 2: GitHub Actions
-1. Subir la carpeta a un repositorio GitHub.
-2. Ir a Actions > Build APK > Run workflow.
-3. Descargar el artefacto “Banco-Ortopedico-APK”.
+app/build.gradle.kts
+app/src/main/AndroidManifest.xml
+app/src/main/assets/app.js
+app/src/main/assets/index.html
+app/src/main/assets/styles.css
+app/src/main/java/org/rotary/bancoortopedico/MainActivity.java
+app/src/main/res/drawable/ic_launcher.xml
+app/src/main/res/values/strings.xml
+app/src/main/res/values/styles.xml
 
-El proyecto usa el paquete:
-org.rotary.bancoortopedico
+El archivo raíz build.gradle.kts debe quedar así:
+plugins {
+    id("com.android.application") version "8.7.3" apply false
+}
+
+No es necesario modificar .github/workflows/build-apk.yml si el workflow actual ya compila.
+
+Nota sobre aceptación remota:
+Esta versión abre WhatsApp real con los reportes y recibos. Como la app funciona localmente y no tiene servidor público, el cliente confirma por WhatsApp y el encargado registra la aceptación desde la app. Para que el cliente pulse un link web de aceptación desde otro teléfono hace falta agregar un backend/servicio web publicado.

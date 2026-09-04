@@ -10,8 +10,8 @@ android {
         applicationId = "org.rotary.bancoortopedico"
         minSdk = 24
         targetSdk = 35
-        versionCode = 8
-        versionName = "0.8-test"
+        versionCode = 10
+        versionName = "1.0-consolidado-v10"
     }
 }
 
