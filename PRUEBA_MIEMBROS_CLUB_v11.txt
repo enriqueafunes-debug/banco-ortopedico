@@ -1,0 +1,17 @@
+BANCO ORTOPÉDICO - PRUEBA CON MIEMBROS DEL CLUB - v11
+
+Objetivo: validar el circuito completo con casos de prueba antes del uso operativo.
+
+Probar al menos estos casos:
+1. Nuevo alquiler con aceptación por WhatsApp.
+2. Pago completo y pago parcial.
+3. Extensión de 1 o más días y cobro del saldo desde Vencimiento.
+4. Historial con recibos, cargos, pagos y eventos.
+5. Devolución en buen estado -> Disponible.
+6. Devolución con mantenimiento/daño -> Mantenimiento.
+7. Cierre con devolución total de garantía.
+8. Cierre aplicando parte de la garantía a un saldo.
+9. Reportes: verificar que los días incluyan días iniciales + extensiones.
+10. Alquiler Cerrado sin saldo: no debe permitir registrar nuevos pagos.
+
+Versión de prueba: v11 / versionCode 11.

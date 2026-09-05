@@ -1,4 +1,4 @@
-BANCO ORTOPÉDICO - CONSOLIDADO v10
+BANCO ORTOPÉDICO - PRUEBA CLUB v11
 
 Proyecto Android listo para compilar con el mismo GitHub Actions que ya funcionó.
 
@@ -26,3 +26,14 @@ No es necesario modificar .github/workflows/build-apk.yml si el workflow actual 
 
 Nota sobre aceptación remota:
 Esta versión abre WhatsApp real con los reportes y recibos. Como la app funciona localmente y no tiene servidor público, el cliente confirma por WhatsApp y el encargado registra la aceptación desde la app. Para que el cliente pulse un link web de aceptación desde otro teléfono hace falta agregar un backend/servicio web publicado.
+
+
+CAMBIOS v11 PARA PRUEBA CON MIEMBROS DEL CLUB
+- Corrección de días en Reportes: suma días iniciales y extensiones cargadas en el período.
+- Cobro directo desde Vencimiento cuando existe saldo.
+- Los alquileres Cerrados sin saldo ya no permiten registrar nuevos pagos.
+- Historial ampliado con eventos, aceptación, extensiones, devolución, cierre y cambios de stock.
+- Garantía histórica visible aun después de devolverla.
+- Fecha efectiva de devolución editable en el cierre.
+- Reporte final y WhatsApp de cierre con detalle completo y recibos.
+- Horarios mostrados con zona Argentina.

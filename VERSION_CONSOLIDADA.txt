@@ -1,23 +1,14 @@
-Banco Ortopédico Android - Consolidado v10
-Club Bicentenario Segundo de Pedro Luro
+Banco Ortopédico Android - Prueba Club v11
 
-Incluye:
-- 138 unidades individuales con códigos y stock.
-- Tarifas iniciales: SR/CO $700 por día + $7000 garantía; resto $400 por día + $4000 garantía.
-- Nuevo alquiler en 3 pasos, mínimo 1 y máximo 90 días.
-- Reporte inicial por WhatsApp y aceptación registrada antes de tomar el stock.
-- Cuenta por alquiler: cargos, pagos y saldo.
-- Pagos parciales separados entre alquiler y garantía.
-- Recibos numerados y envío por WhatsApp.
-- Vencimientos, extensiones y saldo actualizado.
-- Devolución/cierre con garantía devuelta, aplicada o donada.
-- Garantía nunca depositada liberada al cierre.
-- Cierre con saldo pendiente y cobro posterior.
-- Ajuste/condonación con motivo y trazabilidad.
-- Estado de stock posterior al cierre.
-- Costo de adquisición por unidad.
-- Reporte Desde/Hasta: elemento, código, días alquilados, recaudación, efectivo y transferencia.
-- Recuperación de costos y días teóricos para recuperar inversión.
-- Exportación compatible con Excel (.xls) e impresión/Guardar PDF.
+Correcciones posteriores a la prueba completa v10:
+- Reportes: días facturados correctos (incluye días iniciales + extensiones).
+- Vencimiento: botón directo para registrar pago cuando hay saldo pendiente.
+- Alquiler cerrado: se oculta el botón de registrar pago cuando el saldo es cero.
+- Historial: agrega eventos del alquiler y mantiene garantía cobrada/devuelta históricamente.
+- Cierre: fecha efectiva de devolución editable.
+- Reporte final: cliente, elemento, fechas, días, cargos, pagos, recibos, garantía y estado.
+- WhatsApp cierre: mensaje final ampliado con recibos y detalle económico.
+- Trazabilidad de stock: Disponible -> Alquilado -> Disponible/Mantenimiento.
+- Fecha/hora: zona horaria Argentina.
 
-NOTA: el envío a WhatsApp es real (abre WhatsApp con el mensaje preparado). La aceptación remota mediante un link web autocontenido requiere un servicio/backend publicado; en esta versión de prueba la aceptación recibida por WhatsApp se registra desde la app.
+Inventario base: 138 unidades individuales.
