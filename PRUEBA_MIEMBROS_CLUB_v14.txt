@@ -1,0 +1,13 @@
+BANCO ORTOPÉDICO - DEMO v14
+Club Bicentenario Segundo de Pedro Luro
+
+Cambios principales sobre v13:
+- Reportes corregidos para devoluciones anticipadas: días efectivos y alquiler devengado neto.
+- Separación entre alquiler devengado, pagos recibidos, efectivo, transferencia, crédito y garantías.
+- Rentabilidad calculada con alquiler devengado histórico, no con cobros que luego generan saldo a favor.
+- Saldo a favor del cliente visible y aplicable total o parcialmente en un próximo alquiler.
+- Pantalla final de cierre muestra garantía devuelta.
+- Botones de aceptación aclarados como registro manual de la respuesta recibida por WhatsApp en esta demo.
+- Ajuste de desplazamiento/encabezado en recibos y cierre.
+- Conserva todos los datos de v13 al actualizar.
+- Inventario base: 138 unidades.

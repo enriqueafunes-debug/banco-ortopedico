@@ -10,8 +10,8 @@ android {
         applicationId = "org.rotary.bancoortopedico"
         minSdk = 24
         targetSdk = 35
-        versionCode = 13
-        versionName = "1.3-prueba-club-v13"
+        versionCode = 14
+        versionName = "1.4-prueba-club-v14"
     }
 }
 

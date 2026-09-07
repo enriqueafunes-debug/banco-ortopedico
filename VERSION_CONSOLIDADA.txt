@@ -1,14 +1,6 @@
-Banco Ortopédico Android - Prueba Club v11
+Banco Ortopédico Android - Prueba Club v14
 
-Correcciones posteriores a la prueba completa v10:
-- Reportes: días facturados correctos (incluye días iniciales + extensiones).
-- Vencimiento: botón directo para registrar pago cuando hay saldo pendiente.
-- Alquiler cerrado: se oculta el botón de registrar pago cuando el saldo es cero.
-- Historial: agrega eventos del alquiler y mantiene garantía cobrada/devuelta históricamente.
-- Cierre: fecha efectiva de devolución editable.
-- Reporte final: cliente, elemento, fechas, días, cargos, pagos, recibos, garantía y estado.
-- WhatsApp cierre: mensaje final ampliado con recibos y detalle económico.
-- Trazabilidad de stock: Disponible -> Alquilado -> Disponible/Mantenimiento.
-- Fecha/hora: zona horaria Argentina.
-
+Base consolidada: v13 + correcciones de reportes, rentabilidad, saldo a favor y presentación visual.
 Inventario base: 138 unidades individuales.
+Flujo de demo: WhatsApp -> registrar respuesta del cliente -> cobro -> recibo -> extensión -> cierre.
+La aceptación automática desde el teléfono del cliente queda reservada para la etapa con portal/backend online.
