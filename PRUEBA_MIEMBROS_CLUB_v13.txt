@@ -1,0 +1,12 @@
+BANCO ORTOPÉDICO - DEMO v13
+Club Bicentenario Segundo de Pedro Luro
+
+Cambios principales:
+- Flujo confirmado: WhatsApp -> ACEPTÓ/NO ACEPTÓ -> cobro -> recibo.
+- Botones ACEPTÓ / NO ACEPTÓ para alquiler inicial, extensión y cierre.
+- Eliminado texto del futuro portal online en mensajes locales.
+- Devolución anticipada: recalcula días realmente utilizados e importe efectivo.
+- Si hubo pago de más, genera saldo a favor del cliente y permite dejarlo como crédito o marcarlo para devolución.
+- Garantía permanece separada del alquiler.
+- Inventario demo: 138 unidades. Se agregan 10 unidades PC-001 a PC-010 como "Pendiente de clasificación" hasta definir su categoría real.
+- Conserva datos de la v12 al actualizar.

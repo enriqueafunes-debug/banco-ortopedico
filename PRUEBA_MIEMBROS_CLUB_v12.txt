@@ -1,0 +1,21 @@
+BANCO ORTOPÉDICO · CLUB BICENTENARIO SEGUNDO DE PEDRO LURO
+VERSIÓN v12 DE PRUEBA
+
+Cambios principales sobre v11:
+- El cobro queda bloqueado hasta registrar la aceptación del alquiler.
+- El recibo muestra la fecha/hora de aceptación del alquiler.
+- Las extensiones se preparan y quedan pendientes de aceptación; recién al aceptar se cambia vencimiento y se agrega el cargo.
+- El cierre se envía para aceptación y solo al aceptar se actualizan estado, garantía y stock.
+- Se conserva la aceptación manual como respaldo de prueba.
+- Reportes rediseñados como tabla tipo Excel por elemento/código.
+- Reportes separan alquiler, efectivo, transferencia y garantías.
+- Al tocar una fila se abre el detalle del elemento.
+- Excel incluye las mismas columnas y datos del reporte.
+- Imprimir/PDF oculta la interfaz de la app y prepara un reporte limpio A4 apaisado.
+- Etiqueta "Período del reporte" para distinguir el filtro de las fechas del alquiler.
+
+IMPORTANTE SOBRE ACEPTACIÓN ONLINE:
+La v12 deja preparado el flujo y el punto de conexión para un portal online, pero la confirmación automática desde otro teléfono requiere un servicio/backend del Club. Sin ese servicio no es técnicamente posible que la APK local se entere sola de lo que tocó el cliente. Durante esta prueba queda disponible el registro manual de respaldo.
+
+STOCK:
+La lista actualmente cargada en el proyecto suma 128 unidades reales. La interfaz ahora muestra el total real calculado desde la lista, evitando indicar 138 si faltan 10 unidades por identificar. No se agregaron unidades inventadas.
